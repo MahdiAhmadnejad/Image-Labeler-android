@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompleteActivity">
+
+    <ImageView
+        android:id="@+id/image_final"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintBottom_toTopOf="@+id/export_btn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/image_after_crop" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/export_btn"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_35sdp"
+        app:layout_constraintTop_toBottomOf="@id/image_final"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/background_widget">
+        <ProgressBar
+            android:id="@+id/login_progressBar"
+            android:indeterminateTint="@color/white"
+            android:indeterminateTintMode="src_atop"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            app:layout_constraintRight_toLeftOf="@id/text_login_btn"
+            app:layout_constraintTop_toTopOf="@id/export_btn"
+            app:layout_constraintBottom_toBottomOf="@id/export_btn"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/text_login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/export_btn"
+            android:textSize="@dimen/_15ssp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            app:layout_constraintRight_toRightOf="@id/export_btn"
+            app:layout_constraintLeft_toLeftOf="@id/export_btn"
+            app:layout_constraintTop_toTopOf="@id/export_btn"
+            app:layout_constraintBottom_toBottomOf="@id/export_btn"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInput"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:hint="@string/export_format"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/export_btn"
+        app:startIconDrawable="@drawable/export"
+        app:startIconTint="@color/black">
+
+        <AutoCompleteTextView
+            android:labelFor="@string/choose_one"
+            android:id="@+id/autoComplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:padding="3dp"
+            android:text="@string/choose_one"
+            android:textSize="@dimen/_15ssp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputObject"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:hint="@string/object_name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textInput"
+        app:startIconDrawable="@drawable/objects"
+        app:startIconTint="@color/black">
+
+        <AutoCompleteTextView
+            android:labelFor="@string/default_car"
+            android:id="@+id/autoCompleteName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textAutoComplete"
+            android:textSize="@dimen/_15ssp"
+            android:padding="3dp"
+            android:text="@string/default_car" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/coordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputObject" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
