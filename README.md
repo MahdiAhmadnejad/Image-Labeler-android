@@ -1,5 +1,5 @@
 
-# Image Labeler
+# Image Labeler Android
 
 ![Static Badge](https://img.shields.io/badge/License_%20-%20_%20MIT-7F52FF)
 ![Static Badge](https://img.shields.io/badge/Android%20Studio%20_%20-%20_%20Kotlin-7F52FF?logo=android%20studio)
