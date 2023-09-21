@@ -23,8 +23,9 @@
 - [Library](#Library)
   
 ## Demo
-![doc_2023-09-21_16-39-39](https://github.com/MahdiAhmadnejad/Image-Labeler-android/assets/53077144/c7947ba9-4b40-4410-afeb-586b0fa74a7d)
-![doc_2023-09-21_16-39-50](https://github.com/MahdiAhmadnejad/Image-Labeler-android/assets/53077144/8eafcc32-7350-45b3-abc8-96114fa90c9e)
+![doc_2023-09-21_16-39-39](https://github.com/MahdiAhmadnejad/Image-Labeler-android/assets/53077144/5f112ebe-87e1-403f-9eba-b4098e28f617)
+![doc_2023-09-21_16-39-50](https://github.com/MahdiAhmadnejad/Image-Labeler-android/assets/53077144/495563cc-7e0e-4a6d-940b-a4fbbebbd881)
+
 
 ## Features
 - Built-in CropImageActivity.
