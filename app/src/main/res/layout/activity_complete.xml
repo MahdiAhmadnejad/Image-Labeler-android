@@ -11,7 +11,7 @@
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_marginTop="@dimen/_15sdp"
-        app:layout_constraintBottom_toTopOf="@+id/export_btn"
+        app:layout_constraintBottom_toTopOf="@id/textInput"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -22,9 +22,9 @@
         android:layout_width="@dimen/_90sdp"
         android:layout_height="@dimen/_35sdp"
         android:layout_marginTop="@dimen/_35sdp"
-        app:layout_constraintTop_toBottomOf="@id/image_final"
+        app:layout_constraintTop_toBottomOf="@id/textInputObject"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/addYOLO"
         android:background="@drawable/background_widget">
         <ProgressBar
             android:id="@+id/login_progressBar"
@@ -51,6 +51,42 @@
             app:layout_constraintBottom_toBottomOf="@id/export_btn"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:visibility="gone"
+        android:id="@+id/addYOLO"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_35sdp"
+        app:layout_constraintTop_toBottomOf="@id/textInputObject"
+        app:layout_constraintRight_toLeftOf="@id/export_btn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/background_widget">
+        <ProgressBar
+            android:id="@+id/login_progressBar1"
+            android:indeterminateTint="@color/white"
+            android:indeterminateTintMode="src_atop"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            app:layout_constraintRight_toLeftOf="@id/addYOLO"
+            app:layout_constraintTop_toTopOf="@id/addYOLO"
+            app:layout_constraintBottom_toBottomOf="@id/addYOLO"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/text_add_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_to_yolo"
+            android:textSize="@dimen/_15ssp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            app:layout_constraintRight_toRightOf="@id/addYOLO"
+            app:layout_constraintLeft_toLeftOf="@id/addYOLO"
+            app:layout_constraintTop_toTopOf="@id/addYOLO"
+            app:layout_constraintBottom_toBottomOf="@id/addYOLO"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInput"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
@@ -60,7 +96,7 @@
         android:hint="@string/export_format"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/export_btn"
+        app:layout_constraintTop_toBottomOf="@id/image_final"
         app:startIconDrawable="@drawable/export"
         app:startIconTint="@color/black">
 
@@ -106,7 +142,7 @@
         android:layout_marginTop="@dimen/_10sdp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputObject" />
+        app:layout_constraintTop_toBottomOf="@+id/export_btn" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

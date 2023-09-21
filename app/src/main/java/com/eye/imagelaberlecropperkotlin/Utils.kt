@@ -13,10 +13,10 @@ class Utils {
         width: Int,
         height: Int,
         name: String,
-        xmin: Int,
-        ymin: Int,
-        xmax: Int,
-        ymax: Int
+        xmin: Float,
+        ymin: Float,
+        xmax: Float,
+        ymax: Float
     ): String {
         //xml codes detail
         val xmlfile = """
@@ -54,10 +54,10 @@ class Utils {
     }
     fun generateYoloFormat(
         className: String,
-        minX: Int,
-        minY: Int,
-        maxX: Int,
-        maxY: Int,
+        minX: Float,
+        minY: Float,
+        maxX: Float,
+        maxY: Float,
         imgWidth: Int,
         imgHeight: Int
     ): String {

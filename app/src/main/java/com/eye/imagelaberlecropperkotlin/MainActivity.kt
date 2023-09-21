@@ -291,10 +291,10 @@ class MainActivity : AppCompatActivity() {
 
                 // Get the crop coordinates from the CropImage result
                 val cropRect = result.getCropRect()
-                val minX = cropRect.left
-                val minY = cropRect.top
-                val maxX = cropRect.right
-                val maxY = cropRect.bottom
+                val minX = cropRect.left.toFloat()
+                val minY = cropRect.top.toFloat()
+                val maxX = cropRect.right.toFloat()
+                val maxY = cropRect.bottom.toFloat()
 
 
 

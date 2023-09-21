@@ -10,6 +10,7 @@
     <string name="click_here_to_select_an_image">Click Here to Select an Image</string>
     <string name="import_xml">Import XML</string>
     <string name="image_after_crop">Image After CROP</string>
+    <string name="add_to_yolo">Add To YOLO</string>
     <string-array name="exportFormat">
         <item>XML File</item>
         <item>YOLO File</item>
