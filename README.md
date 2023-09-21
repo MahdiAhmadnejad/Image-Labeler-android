@@ -23,6 +23,7 @@
 - [Library](#Library)
   
 ## Demo
+This app aims to simplify the process of creating labeled data for object detection by allowing users to easily annotate images with bounding boxes and class names
 ![doc_2023-09-21_16-39-39](https://github.com/MahdiAhmadnejad/Image-Labeler-android/assets/53077144/5f112ebe-87e1-403f-9eba-b4098e28f617)
 ![doc_2023-09-21_16-39-50](https://github.com/MahdiAhmadnejad/Image-Labeler-android/assets/53077144/495563cc-7e0e-4a6d-940b-a4fbbebbd881)
 
