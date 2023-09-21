@@ -14,14 +14,14 @@
 "Image Labeler"🖼️ is an open source Android app for generating labels for images to train object detection AI models. It allows labeling objects in images and exporting annotations in XML and YOLO formats😅.
 
 ## Table of Contents
-- [Demo](#demo)
-- [Features](#features) 
-- [Usage](#usage)
+- [Demo](#Demo)
+- [Features](#Features) 
+- [Usage](#Usage)
 - [Contributing](#Contributing)
-- [Feedback](#feedback)
+- [Feedback](#Feedback)
 - [License](#License)
 - [Library](#Library)
-- 
+  
 ## Demo
 ![doc_2023-09-21_16-39-39](https://github.com/MahdiAhmadnejad/Image-Labeler-android/assets/53077144/c7947ba9-4b40-4410-afeb-586b0fa74a7d)
 ![doc_2023-09-21_16-39-50](https://github.com/MahdiAhmadnejad/Image-Labeler-android/assets/53077144/8eafcc32-7350-45b3-abc8-96114fa90c9e)
