@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">imagelaberlecropperkotlin</string>
+    <string name="app_name">ImageLabeler</string>
     <string name="check_image">Address Is Null or Wrong \n Check XML File \n Check If Image Is Available</string>
     <string name="choose_one">CHOOSE ONE…</string>
     <string name="export_format">Export Format</string>
     <string name="object_name">Object Name</string>
     <string name="default_car">CAR</string>
-    <string name="export_btn">export</string>
+    <string name="export_btn">Export</string>
     <string name="startimage">StartImage</string>
     <string name="click_here_to_select_an_image">Click Here to Select an Image</string>
     <string name="import_xml">Import XML</string>
