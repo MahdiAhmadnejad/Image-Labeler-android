@@ -11,7 +11,17 @@
 
 
 
-Image Labeler is an open source Android app for generating labels for images to train object detection AI models. It allows labeling objects in images and exporting annotations in XML and YOLO formats😅.
+"Image Labeler"🖼️ is an open source Android app for generating labels for images to train object detection AI models. It allows labeling objects in images and exporting annotations in XML and YOLO formats😅.
+
+## Table of Contents
+- [Demo](#demo)
+- [Features](#features) 
+- [Usage](#usage)
+- [Contributing](#Contributing)
+- [Feedback](#feedback)
+- [License](#License)
+- [Library](#Library)
+- 
 ## Demo
 ![doc_2023-09-21_16-39-39](https://github.com/MahdiAhmadnejad/Image-Labeler-android/assets/53077144/c7947ba9-4b40-4410-afeb-586b0fa74a7d)
 ![doc_2023-09-21_16-39-50](https://github.com/MahdiAhmadnejad/Image-Labeler-android/assets/53077144/8eafcc32-7350-45b3-abc8-96114fa90c9e)
@@ -36,13 +46,25 @@ Image Labeler is an open source Android app for generating labels for images to 
 - Export XML or YOLO files
 - Use files to train detection models
 
+## Contributing
 
+Contributions are welcome! Here's how you can contribute:
+
+- Report bugs and issues
+- Fix bugs and submit pull requests
+- Suggest new features
+- Write and improve documentation
+- Spread the word
 
 ## Feedback
 
 If you have any feedback, please reach out to us at ahmadnjadm@gmail.com
 
-## Using 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Library 
 - [Android-Image-Cropper](https://github.com/ArthurHub/Android-Image-Cropper)
 - [Picasso Library](https://square.github.io/picasso/)
 - [XML Parser](https://github.com/apache/xerces2-j)
