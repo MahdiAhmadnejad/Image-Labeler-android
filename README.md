@@ -42,7 +42,7 @@ Image Labeler is an open source Android app for generating labels for images to 
 
 If you have any feedback, please reach out to us at ahmadnjadm@gmail.com
 
-##Using 
+## Using 
 - [Android-Image-Cropper](https://github.com/ArthurHub/Android-Image-Cropper)
 - [Picasso Library](https://square.github.io/picasso/)
 - [XML Parser](https://github.com/apache/xerces2-j)
